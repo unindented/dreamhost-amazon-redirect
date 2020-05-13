@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^([0-9A-Za-z]+)$ https://www.amazon.com/dp/$1?tag=<your-tag> [R=301,L]
+</IfModule>
